@@ -31,14 +31,14 @@ const AnimeListAndDetails = () => {
   }, []);
 
   return (
-      <div className="text-black">
-        <h2 className="text-4xl font-bold font-poppins">Anime List</h2>
-        <div>
-          {animeList.map((anime, index) => (
-              <AnimeCard key={index} anime={anime} />
-          ))}
-        </div>
+    <div className="text-black">
+      <h2 className="text-4xl font-bold font-poppins">Anime List</h2>
+      <div>
+        {animeList.map((anime, index) => (
+          <AnimeCard key={index} anime={anime} />
+        ))}
       </div>
+    </div>
   );
 };
 

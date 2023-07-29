@@ -103,9 +103,9 @@ const AnimeCard = ({ anime }) => {
               </span>
             </div>
           </div>
-          <div className="bg-gray-100 rounded-md p-4 mb-4">
+          <div className="flex flex-col items-start rounded-md p-4 mb-4">
             <span className="font-bold">Synopsis:</span>{" "}
-            <p className="text-gray-700">{anime.synopsis}</p>
+            <p className="text-gray-700 text-justify">{anime.synopsis}</p>
           </div>
         </div>
       </div>
